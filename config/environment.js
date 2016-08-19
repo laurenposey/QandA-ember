@@ -14,9 +14,9 @@ module.exports = function(environment) {
     },
     firebase: {
       apiKey: "AIzaSyAIP1tqa3tisp9SWxd_v3hqPEsurzLezpQ",
-    authDomain: "qanda-ember.firebaseapp.com",
-    databaseURL: "https://qanda-ember.firebaseio.com",
-    storageBucket: "qanda-ember.appspot.com",
+      authDomain: "qanda-ember.firebaseapp.com",
+      databaseURL: "https://qanda-ember.firebaseio.com",
+      storageBucket: "qanda-ember.appspot.com",
     },
 
 

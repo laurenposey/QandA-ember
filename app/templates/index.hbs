@@ -4,9 +4,12 @@
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Contact{{/link-to}}
 <hr>
-<ul class="unordered-list">
+<ul>
   {{#each model as |question|}}
     <li>Question: {{question.content}}</li>
-    <li> Author: {{question.user}}</li>
+    <li>Author: {{question.user}}</li>
+    <li>{{question.notes}}</li>
   {{/each}}
 </ul>
+
+{{new-question saveQuestion="saveQuestion"}}

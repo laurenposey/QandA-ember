@@ -1,6 +1,11 @@
-<div>
-  <h1>Questions and Answers</h1>
-
-  {{#link-to 'about'}}About{{/link-to}}
-  {{#link-to 'contact'}}Contact{{/link-to}}
-</div>
+<hr>
+<h1>Questions and Answers</h1>
+<hr>
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Contact{{/link-to}}
+<hr>
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.content}} by {{question.user}}</li>
+  {{/each}}
+</ul>

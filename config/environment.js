@@ -12,6 +12,13 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    firebase: {
+      apiKey: "AIzaSyAIP1tqa3tisp9SWxd_v3hqPEsurzLezpQ",
+      authDomain: "qanda-ember.firebaseapp.com",
+      databaseURL: "https://qanda-ember.firebaseio.com",
+      storageBucket: "",
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance

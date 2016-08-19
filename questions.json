@@ -1,20 +1,26 @@
-{ "rentals": [{
-    "owner": "Veruca Salt",
-    "city": "San Francisco",
-    "type": "Estate",
-    "bedrooms": 15,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+{ "questions": [{
+    "content": "Praesent enim orci, tincidunt non lacus at, auctor fermentum elit?",
+    "user": "Nam Volutpat"
   }, {
-    "owner": "Mike Teavee",
-    "city": "Seattle",
-    "type": "Condo",
-    "bedrooms": 1,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+    "content": "Cras lacinia dignissim ante, quis maximus sem euismod eget?",
+    "user": "Vivamus Eget"
   }, {
-    "owner": "Violet Beauregarde",
-    "city": "Portland",
-    "type": "Apartment",
-    "bedrooms": 3,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+    "content": "Nunc consequat, augue vitae faucibus mollis, eros erat pellentesque turpis, at fermentum dui lacus sed nibh?",
+    "user": "Morbi Lacinia"
+  }, {
+    "content": "Praesent enim orci, tincidunt non lacus at, auctor fermentum elit?",
+    "user": "Nam Volutpat"
+  }, {
+    "content": "Cras egestas mauris sed erat commodo, eget molestie risus bibendum?",
+    "user": "Vestibulum Ipsum"
+  }, {
+    "content": "Nunc consequat, augue vitae faucibus mollis, eros erat pellentesque turpis, at fermentum dui lacus sed nibh?",
+    "user": "Morbi Lacinia"
+  }, {
+    "content": "Praesent enim orci, tincidunt non lacus at, auctor fermentum elit?",
+    "user": "Nam Volutpat"
+  }, {
+    "content": "Praesent enim orci, tincidunt non lacus at, auctor fermentum elit?",
+    "user": "Nam Volutpat"
   }]
 }

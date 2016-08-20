@@ -6,9 +6,12 @@
 <hr>
 <ul>
   {{#each model as |question|}}
-    <li>Question: {{question.content}}</li>
-    <li>Author: {{question.user}}</li>
-    <li>{{question.notes}}</li>
+    <li>
+      Question: {{question.content}}
+      Author: {{question.user}}
+      {{question.notes}}
+      {{update-question question=question update="update"}}
+    </li>
   {{/each}}
 </ul>
 

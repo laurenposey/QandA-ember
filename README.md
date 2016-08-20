@@ -10,7 +10,7 @@ _A website where a user can post questions and answers to those questions._
 
 ## Specifications
 #### User Stories:
-* _Questions should have the content of the question itself, an author and additional notes_
+* _Questions should have the content of the question itself, an author and additional notes._ :white_check_mark:
 * _Answers should have the content of the answer and the author._
 * _Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page._
 * _List all questions on the homepage, with only the question and the name of the author showing._

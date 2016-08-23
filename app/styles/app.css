@@ -1,0 +1,24 @@
+body {
+  background-color: whitesmoke;
+  color: #2b66b9;
+
+}
+
+.nav {
+top: 0;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.jumbotron {
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #9D538E;
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+}

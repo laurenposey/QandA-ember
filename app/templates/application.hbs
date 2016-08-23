@@ -1,0 +1,21 @@
+<div class="container">
+  <header class = "jumbotron pull-bottom">
+    <h1>Questions and Answers</h1>
+  </header>
+  <ul class="nav nav-pills pull-yop">
+    {{#link-to "index" tagName="li"}}
+      <a href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
+    {{/link-to}}
+    {{#link-to "about" tagName="li"}}
+      <a href="#"><span class="glyphicon glyphicon-book"></span> About</a>
+    {{/link-to}}
+    {{#link-to "contact" tagName="li"}}
+      <a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact</a>
+    {{/link-to}}
+  </ul>
+{{outlet}}
+  <hr>
+  <footer>
+    <p></p>
+  </footer>
+</div>

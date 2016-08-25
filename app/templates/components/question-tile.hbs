@@ -1,0 +1,8 @@
+<h2>Answers for {{question.content}}</h2>
+<div class="answer-box">
+  <p>
+    {{#each question.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </p>
+</div>

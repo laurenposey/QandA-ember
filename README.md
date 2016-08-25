@@ -10,7 +10,7 @@ _A website where a user can post questions and answers to those questions._
 
 ## Specifications
 #### User Stories:
-* _Questions should have the content of the question itself, an author and additional notes._ 
+* _Questions should have the content of the question itself, an author and additional notes._
 * _Answers should have the content of the answer and the author._
 * _Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page._
 * _List all questions on the homepage, with only the question and the name of the author showing._
@@ -55,15 +55,7 @@ You will need the following things properly installed on your computer.
 
 ## Known Bugs
 
-_PROJECT INCOMPLETE_
-_Objectives not met:_
-* _Application template contains header with link(s)._
-* _Data is stored in and retrieved from Ember Data models and Firebase._
-* _Components are used to create display and behavior for your templates._
-* _One-to-many relationship exists between Question and Answers._
-* _Application works as expected._
-* _Project is in a polished, portfolio-quality state._
-* _You are able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology._
+_none_
 
 ## Support and contact details
 

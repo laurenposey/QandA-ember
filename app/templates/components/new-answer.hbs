@@ -4,18 +4,18 @@
     <form>
       <div class="form-group">
         <label for="reply">Answer</label>
-        {{input value=reply id="reply"}}
+        {{input value=reply id="reply" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="visitor">Your Name</label>
-        {{input value=visitor id="visitor"}}
+        {{input value=visitor id="visitor" class="form-control"}}
       </div>
 
 
-      <button {{action 'saveAnswer'}}>Save</button>
+      <button type="button" class="btn btn-default" {{action 'saveAnswer'}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'answerFormShow'}}>New Answer</button>
+  <button type="button" class="btn btn-default" {{action 'answerFormShow'}}>New Answer</button>
   {{/if}}

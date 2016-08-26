@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  favoriteQuestions: Ember.inject.service(),
+
   model() {
     return this.store.findAll('question');
   },
@@ -19,6 +21,9 @@ export default Ember.Route.extend({
       });
       question.save();
       this.transitionTo('index');
+    },
+    addToFav(question) {
+      this.get('favoriteQuestions').add(question);
     }
   }
 });

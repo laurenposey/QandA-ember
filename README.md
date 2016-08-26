@@ -1,6 +1,6 @@
 # _EPICODUS INDEPENDENT PROJECT | Questions and Answers_
 
-#### _Questions and Answers, 19 August 2016_
+#### _Questions and Answers, 26 August 2016_
 
 #### By _**Lauren Posey**_
 
@@ -9,7 +9,7 @@
 _A website where a user can post questions and answers to those questions._
 
 ## Specifications
-#### User Stories:
+#### User Stories(Ember Week 1):
 * _Questions should have the content of the question itself, an author and additional notes._
 * _Answers should have the content of the answer and the author._
 * _Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page._
@@ -17,6 +17,11 @@ _A website where a user can post questions and answers to those questions._
 * _Users should be able to click on a question to view additional information._
 * _Allow users to add and edit questions._
 * _Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to._
+
+#### User Stories(Ember Week 2):
+* _As a user, I'd like to know how many answers each question has.(Computed Property)_
+* _As a user, I'd like to see an icon next to questions without answers.(Helper)_
+* _As a user, I'd like to create a  list of my favorite questions to reference later.(Service)_
 
 ## Prerequisites
 
@@ -30,7 +35,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/laurenposey/QandA-ember.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -38,24 +43,19 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-* [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-* [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* Visit [http://localhost:4200](http://localhost:4200).
 
 ## Known Bugs
 
-_none_
+_PROJECT INCOMPLETE._
+_Missing the following objectives:_
+* _The project contains at least one functioning computed property._
+* _A service has been implemented successfully._
+* _At least one custom helper is being used to format data._
+* _Previous standards have been met._
+* _The application works as expected._
+* _Project is in a polished, portfolio-quality state._
+* _You are able to discuss the flow of your code and the concepts behind it using correct terminology._
 
 ## Support and contact details
 

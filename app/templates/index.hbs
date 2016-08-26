@@ -2,6 +2,7 @@
 <ul>
   {{#each model as |question|}}
     <li>
+      {{question-popularity question}}
       {{#link-to 'question' question.id}}
       Question: {{question.content}}
       Author: {{question.user}}

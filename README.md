@@ -45,18 +45,6 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit [http://localhost:4200](http://localhost:4200).
 
-## Known Bugs
-
-_PROJECT INCOMPLETE._
-_Missing the following objectives:_
-* _The project contains at least one functioning computed property._
-* _A service has been implemented successfully._
-* _At least one custom helper is being used to format data._
-* _Previous standards have been met._
-* _The application works as expected._
-* _Project is in a polished, portfolio-quality state._
-* _You are able to discuss the flow of your code and the concepts behind it using correct terminology._
-
 ## Support and contact details
 
 _If you run into any issues or have questions, ideas, or concerns, please feel free to contact Lauren at <a href="mailto:mrslaurenposey@gmail.com">mrslaurenposey@gmail.com</a>._

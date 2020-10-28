@@ -2,7 +2,7 @@
 
 #### _Questions and Answers, 26 August 2016_
 
-#### By _**Lauren Posey**_
+#### By _**Lauren Valkyrie**_
 
 ## Description
 
@@ -44,10 +44,6 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit [http://localhost:4200](http://localhost:4200).
-
-## Support and contact details
-
-_If you run into any issues or have questions, ideas, or concerns, please feel free to contact Lauren at <a href="mailto:mrslaurenposey@gmail.com">mrslaurenposey@gmail.com</a>._
 
 ## Technologies Used
 
